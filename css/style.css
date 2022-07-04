@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+.container{
+    min-height: 70vh;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 20px;
+    background: url('../images/366a1002ddb5de2ff883131538d632a6.jpg') center;
+    background-size: cover;
+}
+.bottom{
+    height: 120px;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+}
+#myProgressBar{
+    width: 80%;
+    cursor: pointer;
+}
+.icons i{
+    cursor: pointer;
+}
+
+.media{
+    background-color: rgba(255, 255, 255, 0.63);
+    color: black;
+    border-radius: 34px;
+    width: 55%;
+    
+}
+
+.media-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.media-body img{
+    margin: 0px 10px;
+    border-radius: 34px;
+}
+
+.songListPlay i{
+    cursor: pointer;
+}
+
+#songInfo{
+}
+#songInfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    height: 45px;
+}
